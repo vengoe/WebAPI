@@ -1,3 +1,4 @@
+<!-- addEntry.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,10 +9,11 @@
 </head>
 <body>
     <h1>Add a New Entry</h1>
-    <form id="addEntryForm" action="">
-        <label for="entry">Entry:</label>
-        <input type="text" id="entry" name="entry" placeholder="Enter your Entry" required>
-        <button type="submit">Add Entry</button>
-    </form>
+    <form action="/addfavoritething" method="POST">
+        <label for="favoritething">Favorite Thing</label>
+        <input type="text" name="favoritething" id="favoritething" required>
+        <br>
+        <button type="submit">Add Favorite Thing</button>
+      </form>      
 </body>
 </html>
